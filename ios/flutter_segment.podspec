@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
 A new flutter plugin project.
                        DESC
   s.homepage         = 'http://example.com'
+  s.static_framework = true
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
